@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.fa-compass {
+  color: red;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #222222 !important;
+}
+.f-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+  text-align: center;
+}
+.social-icons {
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.terms {
+  padding-left: 20px;
+  width: 100%;
+}
+.terms a {
+  text-decoration: none;
+  color: #222222;
+  padding-left: 8px;
+}
+.terms a:hover {
+  text-decoration: underline;
+}
+.card {
+  border: none !important;
+  margin-bottom: 0.8rem;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-text {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none !important;
+}
+
+.card-border {
+  border: 1px solid #222222 !important;
+}
+.flex {
+  display: flex !important;
+}
+
+/* Card Effect */
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+.add-btn {
+  border: none !important;
+  background-color: red !important;
+}
+
+/* .img{
+    margin: 0px 100px !important;
+} */
+.btns {
+  display: flex;
+  margin-left: -10px !important;
+  /* margin-left: 10px !important; */
+  /* padding-left: 10px !important; */
+}
+
+/* Map */
+#map {
+  height: 400px;  
+  width: 60vh;
+}
